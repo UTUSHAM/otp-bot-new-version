@@ -32,7 +32,7 @@ slash = SlashCommand(client_discord, sync_commands=True)
 guild = discord.Guild
 account_sid = raw_config['AC0234eed14c0c5331c03b57bddc8dd3be']
 auth_token = raw_config['c6b573d46af7bf309aee6f76319c7904']
-your_twilio_phone_number = raw_config['Twilio Phone Number']
+your_twilio_phone_number = raw_config['+18772030582']
 ngrok = raw_config['ngrok_url']
 client = Client(account_sid, auth_token)
 server_id = int(raw_config['server_id'])
