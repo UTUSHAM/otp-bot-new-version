@@ -30,8 +30,8 @@ raw_config = json.loads(open('Config.txt', 'r').read())
 client_discord = commands.Bot(command_prefix='')
 slash = SlashCommand(client_discord, sync_commands=True)
 guild = discord.Guild
-account_sid = raw_config['account_sid']
-auth_token = raw_config['auth_token']
+account_sid = raw_config['AC0234eed14c0c5331c03b57bddc8dd3be']
+auth_token = raw_config['c6b573d46af7bf309aee6f76319c7904']
 your_twilio_phone_number = raw_config['Twilio Phone Number']
 ngrok = raw_config['ngrok_url']
 client = Client(account_sid, auth_token)
