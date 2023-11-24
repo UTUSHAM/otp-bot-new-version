@@ -33,7 +33,7 @@ guild = discord.Guild
 account_sid = raw_config['AC0234eed14c0c5331c03b57bddc8dd3be']
 auth_token = raw_config['c6b573d46af7bf309aee6f76319c7904']
 your_twilio_phone_number = raw_config['+18772030582']
-ngrok = raw_config['ngrok_url']
+ngrok = raw_config['https://67ac-2607-fb90-e895-ebe4-ac39-d5b7-e21d-5c82.ngrok.io']
 client = Client(account_sid, auth_token)
 server_id = int(raw_config['server_id'])
 
